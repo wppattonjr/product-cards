@@ -1,22 +1,23 @@
-* main {
-    margin: 0;
+* {
     padding: 0;
+    margin: 0;
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: cornflowerblue;
 }
 
-.container {
-    display: flex;
-    flex-flow: row;
-    justify-content: flex-end;
-    /* justify-content: space-evenly; */
-    /* flex-wrap: wrap; */
+.cards {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    border-radius: 10px;
+    background-color: white;
 }
 
-.section1 img {
-    width: 75%;
-    margin: 0%;
-    
+.cards img {
+    width: 200px;
+    margin: 20px;
 }
