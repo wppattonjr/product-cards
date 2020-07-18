@@ -7,17 +7,137 @@ body {
     background-color: cornflowerblue;
 }
 
-.cards {
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+ }
+
+.title {
+    border: 1px solid lightblue;
+    text-align: center;
+}
+
+.card1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
-    text-align: center;
+    /* text-align: center; */
     font-family: arial;
-    border-radius: 10px;
     background-color: white;
 }
 
-.cards img {
+.card1 img {
     width: 200px;
     margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    /* text-align: center; */
+    font-family: arial;
+    background-color: white;
+}
+
+.card2 img {
+    width: 200px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    /* text-align: center; */
+    font-family: arial;
+    background-color: white;
+}
+
+.card3 img {
+    width: 200px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.card4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    /* text-align: center; */
+    font-family: arial;
+    background-color: white;
+}
+
+.card4 img {
+    width: 200px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.card5 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    /* text-align: center; */
+    font-family: arial;
+    background-color: white;
+}
+
+.card5 img {
+    width: 200px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.card6 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    /* text-align: center; */
+    font-family: arial;
+    background-color: white;
+}
+
+.card6 img {
+    width: 200px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.productDescription {
+    text-align: justify;
+}
+
+.productAvailability {
+    color: yellow;
+    background-color: darkgrey;
+}
+
+.pricing {
+    font-weight: bold;
+}
+
+
+
