@@ -8,6 +8,7 @@ body {
 }
 
 .websiteTitle {
+  font-family: indie flower;
   margin-bottom: 2em;
   text-align: center;
 }
@@ -21,6 +22,7 @@ body {
 .title {
   border: 1px solid lightblue;
   text-align: center;
+  font-family: indie flower;
 }
 
 .card {
@@ -42,35 +44,47 @@ body {
 }
 
 .productDescription {
+  font-family: indie flower;
   text-align: justify;
   color: #757575;
 }
 
 .productAvailability {
-  color: #E040FB;
+
+  font-family: indie flower;
+  color: yellow;
   background-color: darkgrey;
 }
 
 .pricing {
+  font-family: indie flower;
   font-weight: bold;
 }
 
 .section2 h2 {
+    font-family: indie flower;
   font-size: large;
 }
 
 .section2 p {
+    font-family: indie flower;
     font-size: smaller;
     font-weight: bolder;
 }
 
 .section3 h2 {
+    font-family: indie flower;
     font-size: large;
 }
 
 .section3 p {
+    font-family: indie flower;
     font-size: smaller;
     font-weight: bolder;
+}
+
+.section2 footer{
+    font-family: indie flower;
 }
 
 
