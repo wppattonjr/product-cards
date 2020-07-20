@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: cornflowerblue;
+  background-color: #BBDEFB;
 }
 
 .websiteTitle {
@@ -31,7 +31,7 @@ body {
   margin: 5px;
   padding: 12px 16px;
   font-family: arial;
-  background-color: white;
+  background-color: #2196F3;
 }
 
 .card img {
@@ -46,9 +46,11 @@ body {
 .productDescription {
   font-family: indie flower;
   text-align: justify;
+  color: #757575;
 }
 
 .productAvailability {
+
   font-family: indie flower;
   color: yellow;
   background-color: darkgrey;
